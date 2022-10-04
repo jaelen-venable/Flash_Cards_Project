@@ -25,6 +25,18 @@
         display: flex;
         animation: overlay-grow 500ms forwards;
 }
-
+.keyframes.dance {
+    from {
+    0%, 100% {
+      transform: rotate(0)
+    }
+    25% {
+      transform: rotate(-30deg)
+    }
+    to {
+    75% {
+      transform: rotate(30deg)
+    }
+  }
 
 
