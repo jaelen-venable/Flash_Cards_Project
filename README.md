@@ -3,18 +3,18 @@
 
 # Spooky-Flash-Match
 
-*Test your memorization and speed with flash cards!
-*Cards are randomized
-*1 player game
+* Test your memorization and speed with flash cards!
+* Cards are randomized
+* 1 player game
 
 
 ## Rules
 
-*Match the cards with the same picture in a timed fashion
-*The fastest time wins
+* Match the cards with the same picture in a timed fashion
+* The fastest time wins
 
 
 ### Credits
 
-*Jaelen Venable
-*Unit 1 Project
+* Jaelen Venable
+* Unit 1 Project
