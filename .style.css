@@ -1,0 +1,19 @@
+
+
+.card.matched .card-front .card-value {
+  transform: rotate(-30deg);
+  animation: dance 500ms ease-in-out alternate infinite 100ms;
+  animation: dance 1s linear infinite 500ms;
+}
+
+.card-back {
+    @@ -165,21 +164,29 @@ body {
+      position: fixed;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #FF6D00;
+      font-family: Creepy, serif;
+      transition: background-color 500ms, font-size 500ms;
+    }
+
