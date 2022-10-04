@@ -1,42 +1,56 @@
 
 
-.card.matched .card-front .card-value {
-  transform: rotate(-30deg);
-  animation: dance 500ms ease-in-out alternate infinite 100ms;
-  animation: dance 1s linear infinite 500ms;
+@font-face {
+  font-family: "Creepy";
+  src: url("Assets/Fonts/Creepy.woff") format("woff"),
+       url("Assets/Fonts/Creepy.woff2") format("woff2");
 }
 
-.card-back {
-    @@ -165,21 +164,29 @@ body {
-      position: fixed;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: #FF6D00;
-      font-family: Creepy, serif;
-      transition: background-color 500ms, font-size 500ms;
+@font-face {
+  font-family: "Lunacy";
+  src: url("Assets/Fonts/Lunacy.woff") format("woff"),
+       url("Assets/Fonts/Lunacy.woff2") format("woff2");
 }
 
-.overlay-text-small {
-        font-size: .3em;
+* {
+box-sizing: border-box;
 }
-      
-.overlay-text.visible {
-        display: flex;
-        animation: overlay-grow 500ms forwards;
+
+html {
+min-height: 100vh;
+cursor: url(Assets/Cursors/Ghost.cur), auto;
+font-family: Lunacy;
 }
-.keyframes.dance {
-    from {
-    0%, 100% {
-      transform: rotate(0)
-    }
-    25% {
-      transform: rotate(-30deg)
-    }
-    to {
-    75% {
-      transform: rotate(30deg)
-    }
-  }
 
+body {
+margin: 0;
+background: radial-gradient(#3D2200, #9D5900);
+}
 
+.page-title {
+color: black;
+font-family: Creepy, serif;
+font-weight: normal;
+text-align: center;
+font-size: 6em;
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-info {
+  color: black;
+  font-size: 4em;
+}
+
+.game-container {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  justify-content: center;
+  perspective: 500px;
+}
