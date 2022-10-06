@@ -10,7 +10,7 @@
 
 ## Rules
 
-* Match the cards with the same picture in a timed fashion
+* Match the cards with the same picture
 * The fastest time wins
 
 

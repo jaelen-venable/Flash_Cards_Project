@@ -7,16 +7,16 @@ cards.forEach((card) => {
   card.addEventListener("click", () => {
     card.classList.add("clicked");
 
-    if (counter === 0) {
-      firstSelection = card.getAttribute("animal");
+    if (counter === 0)  {
+      firstSelection = card.getAttribute("visible");
       counter++;
     } else {
-      secondSelection = card.getAttribute("animal");
+      secondSelection = card.getAttribute("visible");
       counter = 0;
 
       if (firstSelection === secondSelection) {
         const correctCards = document.querySelectorAll(
-          ".card[animal='" + firstSelection + "']"
+          ".card[visible='" + firstSelection + "']"
         );
 
         correctCards[0].classList.add("checked");
