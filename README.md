@@ -3,7 +3,7 @@
 
 # Spooky-Flash-Match
 ### A Javascipt friendly game
-[Link](https://three-dog.flashcard.surge.sh/)
+[Game Link](https://three-dog.flashcard.surge.sh/)
 
 * Test your memorization and speed with flash cards!
 * Cards are randomized
