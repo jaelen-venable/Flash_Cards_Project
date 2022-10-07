@@ -12,7 +12,7 @@
 ## Rules
 
 * Match the cards with the same picture
-* The fastest time wins
+* time yourself and go as fast as you can
 
 
 ### Credits
